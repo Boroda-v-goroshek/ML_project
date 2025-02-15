@@ -1,3 +1,2 @@
 # ML_project
-project in NSU
-Anime top
+Ляляляляляляляялял, нихрена не работает, ляляля
