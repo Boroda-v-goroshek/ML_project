@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Gloves', 'Goggles', 'Helmet', 'Vest']
+
+roboflow:
+  workspace: 1-hmb4a
+  project: ppe-vest-helmet-qshz7
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/1-hmb4a/ppe-vest-helmet-qshz7/dataset/1
