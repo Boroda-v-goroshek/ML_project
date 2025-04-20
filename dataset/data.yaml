@@ -1,13 +1,12 @@
 train: ../train/images
 val: ../valid/images
-test: ../test/images
 
 nc: 4
-names: ['Gloves', 'Goggles', 'Helmet', 'Vest']
+names: ['gloves', 'goggles', 'helmet', 'vest']
 
 roboflow:
   workspace: 1-hmb4a
-  project: ppe-vest-helmet-qshz7
-  version: 1
-  license: MIT
-  url: https://universe.roboflow.com/1-hmb4a/ppe-vest-helmet-qshz7/dataset/1
+  project: ppe-autgr
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/1-hmb4a/ppe-autgr/dataset/2
