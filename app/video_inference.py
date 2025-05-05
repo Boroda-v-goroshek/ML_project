@@ -97,12 +97,8 @@ def perform_inference_on_video(video_path, output_video_path, person_model_path,
                         'first_seen': current_frame_num,
                         'color': tuple((int(x) for x in np.random.randint(0, 255, 3)))
                     }
-                    print(f"Новый трек: {track_id}")
-                else:
-                    # Обновление существующего трека
-                    if current_frame_num - tracks_info[track_id]['last_seen'] > 1:
-                        print(f"Трек {track_id} восстановлен после пропажи")
-                    
+                    #print(f"Новый трек: {track_id}")
+                else:                    
                     tracks_info[track_id]['last_seen'] = current_frame_num
 
                 x1, y1, x2, y2 = map(int, person_box[:4])
@@ -155,7 +151,7 @@ def perform_inference_on_video(video_path, output_video_path, person_model_path,
 
     cap.release()
     out.release()
-    print(f"Video saved at {output_video_path}")
+    #print(f"Video saved at {output_video_path}")
 
 video_path = "v3.5_7.mp4"
 output_video_path = "output.mp4"
