@@ -2,11 +2,11 @@ train: ../train/images
 val: ../valid/images
 
 nc: 4
-names: ['gloves', 'goggles', 'helmet', 'vest']
+names: ['gloves', 'glasses', 'helmet', 'vest']
 
 roboflow:
   workspace: 1-hmb4a
-  project: ppe-autgr
-  version: 2
+  project: ppe-tijze-dmo2d
+  version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/1-hmb4a/ppe-autgr/dataset/2
+  url: https://universe.roboflow.com/1-hmb4a/ppe-tijze-dmo2d/dataset/1
